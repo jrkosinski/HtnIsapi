@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{b17ba8e5-06d7-4f27-bbdd-34daf481ae71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl">
+      <UniqueIdentifier>{1bb05cfb-c2a5-4ede-9315-6ba8ec74fa10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ISAPI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CConfigFile.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CIsapi.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CReaderLock.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CReaderWriterLock.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceFile.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CSafeString.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CSearchBuffer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CWebsiteList.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CWriterLock.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CConfigFile.impl.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="CIsapi.impl.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="CReaderLock.impl.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="CReaderWriterLock.impl.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="CResourceFile.impl.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="CSafeString.impl.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="CSearchBuffer.impl.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.impl.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="CWebsiteList.impl.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="CWriterLock.impl.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.impl.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HTNAffiliate.def">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="README.txt" />
+  </ItemGroup>
+</Project>

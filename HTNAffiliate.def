@@ -1,0 +1,7 @@
+; HTNAffiliate.def : declares the module parameters for the DLL.
+
+LIBRARY	     "HTNAffiliate"
+
+EXPORTS
+	HttpFilterProc
+	GetFilterVersion
